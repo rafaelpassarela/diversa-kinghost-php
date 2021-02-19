@@ -1,0 +1,10 @@
+.idea/
+node_modules/
+vendor/
+.env
+.php_cs.cache
+composer.phar
+composer.lock
+mysql-data/
+.scannerwork/
+sonar-reports/
