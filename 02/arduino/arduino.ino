@@ -1,11 +1,10 @@
 void setup() {
-  // put your setup code here, to run once:
+  // vai gerar erro, pois a var "Y" ainda não existe
   int x = 10;
 
   int soma = x + y;
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 }
