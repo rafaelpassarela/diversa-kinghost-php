@@ -33,6 +33,7 @@ echo '<br>';
 $listaVazia = [];
 var_dump($listaVazia);
 
+// LENDO VALORES DO ARRAY
 echo '<hr>';
 // acessando dados por indice
 echo $estados[0];
@@ -40,5 +41,21 @@ echo $estados[0];
 echo '<br>';
 // acessando dados por indice nomeado
 echo $listaMista['nome'];
+
+
+// ADICIONANDO VALORES NO ARRAY
+echo '<hr>';
+// adiciona o valor 80 na posição 2
+$lista[2] = 80;
+var_dump($lista);
+echo '<br>';
+
+// adiciona o valor 99 no final da lista
+$lista[] = 99;
+var_dump($lista);
+echo '<br>';
+
+$listaNomeada['nome'] = 'HULK';
+var_dump($listaNomeada);
 
 ?>
